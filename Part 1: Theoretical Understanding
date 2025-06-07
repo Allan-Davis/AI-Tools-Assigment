@@ -1,0 +1,30 @@
+Part 1: Theoretical Understanding (40%)
+Q1: Explain the primary differences between TensorFlow and PyTorch. When would you choose one over the other?
+Answer:
+
+TensorFlow is developed by Google and uses a static computational graph (though it also supports eager execution). It is optimized for production, scalability, and deployment (especially on mobile and web via TensorFlow Lite and TensorFlow.js).
+
+PyTorch, developed by Facebook, uses a dynamic computation graph, making it more intuitive and flexible for experimentation, debugging, and rapid development. It’s popular in academia and research.
+
+✅ When to choose which:
+
+Use TensorFlow if you need scalability, deployment pipelines, or integration with tools like TFX.
+
+Use PyTorch if you're doing research, prototyping models, or need clearer debugging with Python-like execution.
+
+Q2: Describe two use cases for Jupyter Notebooks in AI development.
+Answer:
+
+Exploratory Data Analysis (EDA):
+Jupyter Notebooks allow data scientists to visualize and interactively explore datasets using code and inline charts (e.g., using matplotlib, seaborn, plotly).
+
+Reproducible Research and Prototyping:
+They provide a blend of code, output, and markdown documentation in one place, making it easy to prototype models, explain code to collaborators, and share results.
+
+Q3: How does spaCy enhance NLP tasks compared to basic Python string operations?
+Answer:
+
+spaCy provides pre-trained pipelines that handle tokenization, part-of-speech tagging, dependency parsing, and named entity recognition (NER) with greater speed and accuracy than using str.split(), regex, or manual methods.
+
+It treats text as linguistic objects (tokens, sentences, entities), enabling sophisticated and contextual analysis, which basic string functions cannot achieve efficiently.
+
